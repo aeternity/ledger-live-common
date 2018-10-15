@@ -97,6 +97,24 @@ const ethereumUnits = (name, code) => [
 ];
 
 const cryptocurrenciesById = {
+  aeternity: {
+    id: "aeternity",
+    coinType: 457,
+    name: "æternity",
+    managerAppName: "æternity",
+    ticker: "AE",
+    scheme: "aeternity",
+    color: "#f7296e",
+    family: "aeternity",
+    units: [
+      {
+        name: "AE",
+        code: "AE",
+        magnitude: 0
+      }
+    ],
+    // isTestnetFor: "aeternity"
+  },
   aion: {
     id: "aion",
     coinType: 425,
