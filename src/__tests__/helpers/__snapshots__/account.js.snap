@@ -1363,43 +1363,43 @@ exports[`getBalanceHistorySum with lot of accounts 1`] = `
 Array [
   Object {
     "date": 2018-03-06T03:59:59.999Z,
-    "value": "1264055880",
+    "value": "12523418838",
   },
   Object {
     "date": 2018-03-07T03:59:59.999Z,
-    "value": "1777979969",
+    "value": "14143856166",
   },
   Object {
     "date": 2018-03-08T03:59:59.999Z,
-    "value": "1809862301",
+    "value": "14194298701",
   },
   Object {
     "date": 2018-03-09T03:59:59.999Z,
-    "value": "2966079156",
+    "value": "15334228221",
   },
   Object {
     "date": 2018-03-10T03:59:59.999Z,
-    "value": "3650118611",
+    "value": "17029654925",
   },
   Object {
     "date": 2018-03-11T03:59:59.999Z,
-    "value": "3950821633",
+    "value": "16739948974",
   },
   Object {
     "date": 2018-03-12T03:59:59.999Z,
-    "value": "4648187755",
+    "value": "19839284818",
   },
   Object {
     "date": 2018-03-13T03:59:59.999Z,
-    "value": "5473746491",
+    "value": "19765726459",
   },
   Object {
     "date": 2018-03-14T03:59:59.999Z,
-    "value": "7587798999",
+    "value": "21612516150",
   },
   Object {
     "date": 2018-03-14T17:34:42.000Z,
-    "value": "9100445412",
+    "value": "23970882744",
   },
 ]
 `;
@@ -1420,31 +1420,31 @@ Array [
   },
   Object {
     "date": 2018-03-09T03:59:59.999Z,
-    "value": "2840441",
+    "value": "0",
   },
   Object {
     "date": 2018-03-10T03:59:59.999Z,
-    "value": "11165355",
+    "value": "40554620717506894900",
   },
   Object {
     "date": 2018-03-11T03:59:59.999Z,
-    "value": "24381380",
+    "value": "81046644679275755750",
   },
   Object {
     "date": 2018-03-12T03:59:59.999Z,
-    "value": "21492208",
+    "value": "82285791209530854260",
   },
   Object {
     "date": 2018-03-13T03:59:59.999Z,
-    "value": "22044773",
+    "value": "131467994884566188446",
   },
   Object {
     "date": 2018-03-14T03:59:59.999Z,
-    "value": "35944221",
+    "value": "171582419061721737886",
   },
   Object {
     "date": 2018-03-14T17:34:42.000Z,
-    "value": "40043374",
+    "value": "218774988221040577246",
   },
 ]
 `;
@@ -1456,13 +1456,13 @@ Object {
     Object {
       "data": Array [
         Object {
-          "accountId": "mock:1:hcash:seed_7:",
+          "accountId": "mock:1:gochain:seed_7:",
           "blockHash": "E02ECF8A75C36FE328C473C811CA604B828E4F2ACEC48D61C8CF2FE5BE64C4B4",
           "blockHeight": 123446,
           "date": 2018-03-14T08:18:34.104Z,
           "fee": "33573",
           "hash": "6F835B8390B39C89A1122A812240D2224D06B298EF6DB557D2A18F7AB3E6BF93",
-          "id": "mock_op_0_mock:1:hcash:seed_7:",
+          "id": "mock_op_0_mock:1:gochain:seed_7:",
           "recipients": Array [
             "1jjKMPMx5ur5TLhXhhXSLhZw1dDq3zY",
           ],
@@ -1473,13 +1473,13 @@ Object {
           "value": "3357286",
         },
         Object {
-          "accountId": "mock:1:hcash:seed_7:",
+          "accountId": "mock:1:gochain:seed_7:",
           "blockHash": "15B7352A1BA1EE1BBD2D48D87816E20AFC651D13BB8A031269A4999DFFD5760D",
           "blockHeight": 123446,
           "date": 2018-03-14T08:16:52.572Z,
           "fee": "2405",
           "hash": "988D54C0BEC5A27BB3AA4417792CC18E1B8B6EF9EABCB94FD8CC275C495A5350",
-          "id": "mock_op_1_mock:1:hcash:seed_7:",
+          "id": "mock_op_1_mock:1:gochain:seed_7:",
           "recipients": Array [
             "1m8HxmuXUzy5muw7Ja8E3UxS1VfxiU1MHp",
           ],
@@ -1490,13 +1490,13 @@ Object {
           "value": "240490",
         },
         Object {
-          "accountId": "mock:1:hcash:seed_7:",
+          "accountId": "mock:1:gochain:seed_7:",
           "blockHash": "75624D51A31631C9DC3FE4A86086A81F285FC463DE40B7D44E2B8AD197A3F7B2",
           "blockHeight": 123446,
           "date": 2018-03-14T08:12:47.744Z,
           "fee": "3349",
           "hash": "1B4FDCBDC64B184705F60EE93CD89CA5FB857D01410D8057A29C4A149FC169FA",
-          "id": "mock_op_2_mock:1:hcash:seed_7:",
+          "id": "mock_op_2_mock:1:gochain:seed_7:",
           "recipients": Array [
             "17CUC1UEeBsZco9Yoytfv4GZKXS7UoyNf",
           ],
@@ -1507,13 +1507,13 @@ Object {
           "value": "334934",
         },
         Object {
-          "accountId": "mock:1:hcash:seed_7:",
+          "accountId": "mock:1:gochain:seed_7:",
           "blockHash": "FD1341CA00ADCDBB394FF99A6D62CB83103B23C0C65C47149D1852D8873569AF",
           "blockHeight": 123440,
           "date": 2018-03-14T06:38:39.544Z,
           "fee": "162",
           "hash": "0133020280E5320FE35222134339037357374D920F9602926E414C9B3487C576",
-          "id": "mock_op_3_mock:1:hcash:seed_7:",
+          "id": "mock_op_3_mock:1:gochain:seed_7:",
           "recipients": Array [
             "1wdZG3Pbg8YE1jQ4nhiF5wiq7ADd7Dnu",
           ],
@@ -1529,13 +1529,13 @@ Object {
     Object {
       "data": Array [
         Object {
-          "accountId": "mock:1:hcash:seed_7:",
+          "accountId": "mock:1:gochain:seed_7:",
           "blockHash": "ED81F7A66651885AB2E81200BCB2502F1D5B26F86DEAFF9D9F32520F19A93AB2",
           "blockHeight": 123394,
           "date": 2018-03-13T19:09:14.170Z,
           "fee": "48",
           "hash": "9CB1DA2E5C4336D1FBD64E444BA6003DB94E1A3444C9A28B4D3F5E57E2657FA9",
-          "id": "mock_op_4_mock:1:hcash:seed_7:",
+          "id": "mock_op_4_mock:1:gochain:seed_7:",
           "recipients": Array [
             "1iqFBQgYcQc3kbhnoQVoyy54Hrj5F",
           ],
@@ -1546,13 +1546,13 @@ Object {
           "value": "4790",
         },
         Object {
-          "accountId": "mock:1:hcash:seed_7:",
+          "accountId": "mock:1:gochain:seed_7:",
           "blockHash": "947B4C8908BF6CF747DA2C1F8E5BD549B8B51473EB13D545D3679D4DD4457206",
           "blockHeight": 123387,
           "date": 2018-03-13T17:23:07.047Z,
           "fee": "439",
           "hash": "3396ACB2C525893B224787A2C63A2B8E202BF61CB695DEDE2F3656FCC6786FF4",
-          "id": "mock_op_5_mock:1:hcash:seed_7:",
+          "id": "mock_op_5_mock:1:gochain:seed_7:",
           "recipients": Array [
             "17CTQvbr2kKNaFEwze1K6KnPvHmUs1",
           ],
@@ -1563,13 +1563,13 @@ Object {
           "value": "43937",
         },
         Object {
-          "accountId": "mock:1:hcash:seed_7:",
+          "accountId": "mock:1:gochain:seed_7:",
           "blockHash": "99CBA582DACC0EC24C530EF9AB1886E4815429AAA0674E34E429EC60A39CE468",
           "blockHeight": 123382,
           "date": 2018-03-13T16:11:27.151Z,
           "fee": "6641",
           "hash": "B754A54DEE2B6AE9EE347DC0A496E33F8A5EF0FB00EAEFA2FFCC4335E6EA063C",
-          "id": "mock_op_6_mock:1:hcash:seed_7:",
+          "id": "mock_op_6_mock:1:gochain:seed_7:",
           "recipients": Array [
             "1ghqQ4QASb5JtmSLHMJZeZdF6aDKW",
           ],
@@ -1580,13 +1580,13 @@ Object {
           "value": "664120",
         },
         Object {
-          "accountId": "mock:1:hcash:seed_7:",
+          "accountId": "mock:1:gochain:seed_7:",
           "blockHash": "A9F60463F590837E7566D16EC01870B97FCACC7B69562C75FE94703ADE635BFF",
           "blockHeight": 123377,
           "date": 2018-03-13T14:58:23.992Z,
           "fee": "5194",
           "hash": "7487EADD9B76FF1C1AA80AC69CEC56B585DFA6CD9907ED14DCDB54DC8C61748C",
-          "id": "mock_op_7_mock:1:hcash:seed_7:",
+          "id": "mock_op_7_mock:1:gochain:seed_7:",
           "recipients": Array [
             "1xpHKawLQeGabPdffZbwTLreTCP5",
           ],
@@ -1597,13 +1597,13 @@ Object {
           "value": "519443",
         },
         Object {
-          "accountId": "mock:1:hcash:seed_7:",
+          "accountId": "mock:1:gochain:seed_7:",
           "blockHash": "2107DE9DA917528EF900229B3B2DF7F1B866388B916055090E5CAA664A0A54D4",
           "blockHeight": 123370,
           "date": 2018-03-13T13:07:07.534Z,
           "fee": "31813",
           "hash": "C16121083DA16F0EC4091775702D32DF921EF6C5878E48B437867C0BD79BC735",
-          "id": "mock_op_8_mock:1:hcash:seed_7:",
+          "id": "mock_op_8_mock:1:gochain:seed_7:",
           "recipients": Array [
             "1Y7PdrS6SXMSSCC7XCrtegtvzk",
           ],
@@ -1614,13 +1614,13 @@ Object {
           "value": "3181264",
         },
         Object {
-          "accountId": "mock:1:hcash:seed_7:",
+          "accountId": "mock:1:gochain:seed_7:",
           "blockHash": "A1E71BFC6142ADE512F3312B856F302EC3F82DA569C9111EA8DA761BD034C0F0",
           "blockHeight": 123358,
           "date": 2018-03-13T10:06:04.249Z,
           "fee": "1261",
           "hash": "818F742481F3771C58609695551C8B9E7EE2166F7960B062CF31FB9D08D28C50",
-          "id": "mock_op_9_mock:1:hcash:seed_7:",
+          "id": "mock_op_9_mock:1:gochain:seed_7:",
           "recipients": Array [
             "1uuuJthk22168yxjZ3W7UxBqBK",
           ],
@@ -1763,13 +1763,13 @@ Object {
           "value": "1669609",
         },
         Object {
-          "accountId": "mock:1:pivx:gaobd6:",
+          "accountId": "mock:1:pirl:gaobd6:",
           "blockHash": "1ADAE711D56B3E7C50C88D18A98E384CE8C893EF771A0C8497029C5B45B57E78",
           "blockHeight": 153239,
           "date": 2018-03-14T16:08:10.493Z,
           "fee": "48418",
           "hash": "7A294102CDBB0E8B30A45E25B4669DC86116526DDDC55130DA0B2A3E744DB947",
-          "id": "mock_op_0_mock:1:pivx:gaobd6:",
+          "id": "mock_op_0_mock:1:pirl:gaobd6:",
           "recipients": Array [
             "1WcVYTH1MechGpk2at5wffVGod6DiW",
           ],
@@ -1831,13 +1831,13 @@ Object {
           "value": "22117520360772700000",
         },
         Object {
-          "accountId": "mock:1:pirl:gaobd5:",
+          "accountId": "mock:1:peercoin:gaobd5:",
           "blockHash": "616F8BF3F93A2D1A737E98F280CDE92875DFFD3D2CD7859BA311F16BFB2F1009",
           "blockHeight": 181031,
           "date": 2018-03-14T14:46:53.793Z,
-          "fee": "83",
+          "fee": "2699",
           "hash": "75BE381196C7C648F28757ED3CE3C005CE396313F427F519C44E8A6789C0C31A",
-          "id": "mock_op_0_mock:1:pirl:gaobd5:",
+          "id": "mock_op_0_mock:1:peercoin:gaobd5:",
           "recipients": Array [
             "1vhLrmcZS16VLRRPrGXfSX49Mh9mfYLk",
           ],
@@ -1845,7 +1845,7 @@ Object {
             "1jX87WjRjUksto75uqRQbMWEB86",
           ],
           "type": "OUT",
-          "value": "8349",
+          "value": "269911",
         },
         Object {
           "accountId": "mock:1:poswallet:gaobd1:",
@@ -1899,13 +1899,13 @@ Object {
           "value": "2552046",
         },
         Object {
-          "accountId": "mock:1:pivx:gaobd6:",
+          "accountId": "mock:1:pirl:gaobd6:",
           "blockHash": "9A328378B81547EBA384516E8527076C45C1289F19DC3FDFD3CDD01F2A947ADA",
           "blockHeight": 153231,
           "date": 2018-03-14T14:15:08.800Z,
           "fee": "382",
           "hash": "0DB356C0983765816B1B4AE9E5DAEBFA3EBCF43005A2B3DA00164A07EDBE6B04",
-          "id": "mock_op_1_mock:1:pivx:gaobd6:",
+          "id": "mock_op_1_mock:1:pirl:gaobd6:",
           "recipients": Array [
             "1DF9oaVWRCoaaye1rb7iNw6ZAD",
           ],
@@ -2103,13 +2103,13 @@ Object {
           "value": "26690",
         },
         Object {
-          "accountId": "mock:1:pivx:gaobd6:",
+          "accountId": "mock:1:pirl:gaobd6:",
           "blockHash": "AEBE546BF7690CB28030AAB615001ECA699559E20C2F759949609BAF6F095AA5",
           "blockHeight": 153222,
           "date": 2018-03-14T11:52:59.455Z,
           "fee": "11274",
           "hash": "6ACEEAB3211ABE9CA51E92B7BD52F1AA01EBE763449F3B00325091A80BFD761C",
-          "id": "mock_op_2_mock:1:pivx:gaobd6:",
+          "id": "mock_op_2_mock:1:pirl:gaobd6:",
           "recipients": Array [
             "1ihgiU8up8Mv6N1JMYbfnJShrRgSfLJ6hUw",
           ],
@@ -2120,13 +2120,13 @@ Object {
           "value": "1127444",
         },
         Object {
-          "accountId": "mock:1:pivx:gaobd6:",
+          "accountId": "mock:1:pirl:gaobd6:",
           "blockHash": "B466721442356390E0C983E7F0B355F95870837791D4EF2ECD221257C3AB13EE",
           "blockHeight": 153221,
           "date": 2018-03-14T11:42:57.055Z,
           "fee": "29074",
           "hash": "3174B323AF2986DD49E0145671BBCBD272DD4C42B08C0308F20333059E221D2E",
-          "id": "mock_op_3_mock:1:pivx:gaobd6:",
+          "id": "mock_op_3_mock:1:pirl:gaobd6:",
           "recipients": Array [
             "1T9VsghgKbm5MehzvxHxaAuKDFzm",
           ],
@@ -2137,13 +2137,13 @@ Object {
           "value": "2907376",
         },
         Object {
-          "accountId": "mock:1:pivx:gaobd6:",
+          "accountId": "mock:1:pirl:gaobd6:",
           "blockHash": "56FB2607247EE210D44142049A75C2DC4F45247A32E2C1DF448509B69298BCB3",
           "blockHeight": 153220,
           "date": 2018-03-14T11:26:48.006Z,
           "fee": "80751",
           "hash": "40EE62CEB42A6F182F17A75243E07EB863651800EB81032DC79747A473105BAA",
-          "id": "mock_op_4_mock:1:pivx:gaobd6:",
+          "id": "mock_op_4_mock:1:pirl:gaobd6:",
           "recipients": Array [
             "1uicqKAyjaMQSFQ67yYePpbRJEY213HVUTH",
           ],
@@ -2341,13 +2341,13 @@ Object {
           "value": "1092815",
         },
         Object {
-          "accountId": "mock:1:pirl:gaobd5:",
+          "accountId": "mock:1:peercoin:gaobd5:",
           "blockHash": "FEF7781DB99F1EBC8D6A96564FCBF1960859020E7D6D181DC84BFBF6E62A206F",
           "blockHeight": 180992,
           "date": 2018-03-14T05:01:27.256Z,
-          "fee": "665",
+          "fee": "21504",
           "hash": "8C503BC8254F67AE2ED0DE6D81DB89321EAB8D5EED84BD5921FF8E7B5F7183EE",
-          "id": "mock_op_1_mock:1:pirl:gaobd5:",
+          "id": "mock_op_1_mock:1:peercoin:gaobd5:",
           "recipients": Array [
             "1mrhUR9WiK7ZCY93zs7NdqPDRbW6",
           ],
@@ -2355,7 +2355,7 @@ Object {
             "1LS455kfE36wN964RwQTWnBmdGNeeDY5",
           ],
           "type": "OUT",
-          "value": "66521",
+          "value": "2150442",
         },
         Object {
           "accountId": "mock:1:poswallet:gaobd1:",
@@ -2550,13 +2550,13 @@ Object {
           "value": "5110937",
         },
         Object {
-          "accountId": "mock:1:pirl:gaobd5:",
+          "accountId": "mock:1:peercoin:gaobd5:",
           "blockHash": "14A8BC690B098CBAE88F1E2B17F26781DD409443F0961C2C98558C9DF73E3F48",
           "blockHeight": 180972,
           "date": 2018-03-13T23:57:18.949Z,
-          "fee": "5728",
+          "fee": "185177",
           "hash": "878F7945A83889CAD4E43D8BCBF9E074D4C70F23399BEED0F42C7E0678607993",
-          "id": "mock_op_2_mock:1:pirl:gaobd5:",
+          "id": "mock_op_2_mock:1:peercoin:gaobd5:",
           "recipients": Array [
             "1e8m9qqLjZnB5Cd4uGSG1fgyXe1aDz",
           ],
@@ -2564,7 +2564,7 @@ Object {
             "1URmW647x29kcc6PDNdEL3Mz3NKfnfrx",
           ],
           "type": "OUT",
-          "value": "572824",
+          "value": "18517699",
         },
         Object {
           "accountId": "mock:1:poa:gaobd0:",
@@ -2584,13 +2584,13 @@ Object {
           "value": "1743796",
         },
         Object {
-          "accountId": "mock:1:pirl:gaobd5:",
+          "accountId": "mock:1:peercoin:gaobd5:",
           "blockHash": "0187132D2E2E234A4BF2B2B6C23FD346B386F9FBF074F5E3AA127C0A7B15F598",
           "blockHeight": 180963,
           "date": 2018-03-13T21:49:21.764Z,
-          "fee": "1018",
+          "fee": "32920",
           "hash": "CF655AFCDC9F0ADE686F15372C537F8CB89FD628A8E21A91A960D5F6F36E3084",
-          "id": "mock_op_3_mock:1:pirl:gaobd5:",
+          "id": "mock_op_3_mock:1:peercoin:gaobd5:",
           "recipients": Array [
             "12JCFDFpQMSM6ffxFne19n3fEWS",
           ],
@@ -2598,16 +2598,16 @@ Object {
             "1tdcPgzB9A9uhxftaghJhQue7rFw3rQn3",
           ],
           "type": "IN",
-          "value": "101835",
+          "value": "3292035",
         },
         Object {
-          "accountId": "mock:1:pirl:gaobd5:",
+          "accountId": "mock:1:peercoin:gaobd5:",
           "blockHash": "474EE6F0090C11F8FAB51FB4F48B266BA7A275B9F078E8ACF5C9CA487285F583",
           "blockHeight": 180962,
           "date": 2018-03-13T21:23:50.315Z,
-          "fee": "226",
+          "fee": "7301",
           "hash": "B4235D0D2FC6C9810BF9AF3B9A2558530A0D2C6113B05662757D26B6D275F9CB",
-          "id": "mock_op_4_mock:1:pirl:gaobd5:",
+          "id": "mock_op_4_mock:1:peercoin:gaobd5:",
           "recipients": Array [
             "1AftsJLkMvwTBnA8G7gmEyGRhaqyKSC",
           ],
@@ -2615,7 +2615,7 @@ Object {
             "1pBSxGAwUBw7wCh7G4s5sWdyUkhPLhu3T",
           ],
           "type": "OUT",
-          "value": "22584",
+          "value": "730088",
         },
         Object {
           "accountId": "mock:1:poswallet:gaobd1:",
@@ -2652,13 +2652,13 @@ Object {
           "value": "26256983240223460000",
         },
         Object {
-          "accountId": "mock:1:pirl:gaobd5:",
+          "accountId": "mock:1:peercoin:gaobd5:",
           "blockHash": "5B66518F4B54532279088BEF670444C125D84D73E075CCB3899309B73FE75A8E",
           "blockHeight": 180952,
           "date": 2018-03-13T19:03:20.209Z,
-          "fee": "946",
+          "fee": "30575",
           "hash": "37F961B2AB129CC851EC58F96B02CC059BC231AA04B01F4C086F6B9A678C50E3",
-          "id": "mock_op_5_mock:1:pirl:gaobd5:",
+          "id": "mock_op_5_mock:1:peercoin:gaobd5:",
           "recipients": Array [
             "1ZrTg8KqD3FCh9ZW8KdPNXFvHA1xSbuwa",
           ],
@@ -2666,16 +2666,16 @@ Object {
             "1AWycaSjeM99xH5vseXKbMgswbc",
           ],
           "type": "IN",
-          "value": "94581",
+          "value": "3057522",
         },
         Object {
-          "accountId": "mock:1:pirl:gaobd5:",
+          "accountId": "mock:1:peercoin:gaobd5:",
           "blockHash": "EA9C0A53F7858D16A084960A49D0E9362CC8D4060826724F187FEEECEE3E5191",
           "blockHeight": 180952,
           "date": 2018-03-13T18:56:22.857Z,
-          "fee": "11001",
+          "fee": "355619",
           "hash": "39986E0DF92C8D6CC9D9260CDD4FB8D3349C017C0D455F34698F7DE530422796",
-          "id": "mock_op_6_mock:1:pirl:gaobd5:",
+          "id": "mock_op_6_mock:1:peercoin:gaobd5:",
           "recipients": Array [
             "1AWTkLAzBU9pD8kZQQvCudaFvNgSk4",
           ],
@@ -2683,16 +2683,16 @@ Object {
             "1upxMhXMivQu4x1fvrT32YU6ESzk1V1x",
           ],
           "type": "IN",
-          "value": "1100069",
+          "value": "35561946",
         },
         Object {
-          "accountId": "mock:1:pirl:gaobd5:",
+          "accountId": "mock:1:peercoin:gaobd5:",
           "blockHash": "CCDEAF5AD795A6D4D4FAFDE85E157B86092CFF448B3F271347D5AA679CBB005C",
           "blockHeight": 180951,
           "date": 2018-03-13T18:48:43.706Z,
-          "fee": "29293",
+          "fee": "946947",
           "hash": "57E2388219824BD3A211F0B9B1C9CE12ECC78AAB6920438952DBC8B0C687D6CF",
-          "id": "mock_op_7_mock:1:pirl:gaobd5:",
+          "id": "mock_op_7_mock:1:peercoin:gaobd5:",
           "recipients": Array [
             "1svSR2qFKSzqAvi8gzkf5DrQ3QBQ7a4Wx",
           ],
@@ -2700,7 +2700,7 @@ Object {
             "1mHHYxPkKtZuaw1gQnPXZK9EnJ",
           ],
           "type": "OUT",
-          "value": "2929276",
+          "value": "94694690",
         },
         Object {
           "accountId": "mock:1:peercoin:gaobd4:",
@@ -2754,13 +2754,13 @@ Object {
           "value": "1702733",
         },
         Object {
-          "accountId": "mock:1:pirl:gaobd5:",
+          "accountId": "mock:1:peercoin:gaobd5:",
           "blockHash": "67AE71AEEA502FC1F0FCEDF56D58EAF2BB93D34E0E51DC8E1A7BAA718DE7B193",
           "blockHeight": 180947,
           "date": 2018-03-13T17:48:24.412Z,
-          "fee": "12734",
+          "fee": "411637",
           "hash": "7C3D9C85B0C4D074543DD4E975231AA0F97F6EB8AD1C4DA862BC87EE6DA2014D",
-          "id": "mock_op_8_mock:1:pirl:gaobd5:",
+          "id": "mock_op_8_mock:1:peercoin:gaobd5:",
           "recipients": Array [
             "1a5CSEN1FKrivyMFmYoYfdgUvbz6LENMvw",
           ],
@@ -2768,7 +2768,7 @@ Object {
             "1GXxGpPiEpKDjFGX9DAyj8DiWY",
           ],
           "type": "OUT",
-          "value": "1273354",
+          "value": "41163716",
         },
         Object {
           "accountId": "mock:1:poa:gaobd0:",
@@ -2975,13 +2975,13 @@ Object {
           "value": "169309734",
         },
         Object {
-          "accountId": "mock:1:pirl:gaobd5:",
+          "accountId": "mock:1:peercoin:gaobd5:",
           "blockHash": "74F07E27990D0968CB4E5C4C46FF252DBFC31F166507E65383D5B5E13101E0F4",
           "blockHeight": 180931,
           "date": 2018-03-13T13:45:12.928Z,
-          "fee": "12665",
+          "fee": "409425",
           "hash": "1850DDB4DC3EE5F7FFC3B6D01B7F4438B90C7F8D1AD3FB4648DBB709028318B8",
-          "id": "mock_op_9_mock:1:pirl:gaobd5:",
+          "id": "mock_op_9_mock:1:peercoin:gaobd5:",
           "recipients": Array [
             "18v37iYgyFd1eJn9rBwQD4J6JUcgRd",
           ],
@@ -2989,7 +2989,7 @@ Object {
             "1XZPitDT7wboVR679YWSDZzGswdf1",
           ],
           "type": "OUT",
-          "value": "1266510",
+          "value": "40942477",
         },
         Object {
           "accountId": "mock:1:poswallet:gaobd1:",
@@ -3009,13 +3009,13 @@ Object {
           "value": "432937",
         },
         Object {
-          "accountId": "mock:1:pirl:gaobd5:",
+          "accountId": "mock:1:peercoin:gaobd5:",
           "blockHash": "570CF5625935D751B19984C92D6238EBE50BA1167F689255F782CAA1CE04EDDF",
           "blockHeight": 180920,
           "date": 2018-03-13T10:53:18.978Z,
-          "fee": "8937",
+          "fee": "288894",
           "hash": "0761933DE912822D4EDA730738787FD00E46C67173E7F210B4729E818A6DC44C",
-          "id": "mock_op_10_mock:1:pirl:gaobd5:",
+          "id": "mock_op_10_mock:1:peercoin:gaobd5:",
           "recipients": Array [
             "16k3WbJKSnxU6iVpu5uzRACN4RgFYuL2N8J",
           ],
@@ -3023,16 +3023,16 @@ Object {
             "1GLoZfYLCa6YcnEwdZxGhmbw8M",
           ],
           "type": "OUT",
-          "value": "893661",
+          "value": "28889380",
         },
         Object {
-          "accountId": "mock:1:pirl:gaobd5:",
+          "accountId": "mock:1:peercoin:gaobd5:",
           "blockHash": "A5FBBB4CF0414100BC66166D3540CC2F051622122A33F19700F3A5751C65BF1C",
           "blockHeight": 180919,
           "date": 2018-03-13T10:38:26.175Z,
-          "fee": "54071",
+          "fee": "1747965",
           "hash": "E3DA8E348612568C8568BA644AD055752619C14316D4643518B00C1C2D8660CE",
-          "id": "mock_op_11_mock:1:pirl:gaobd5:",
+          "id": "mock_op_11_mock:1:peercoin:gaobd5:",
           "recipients": Array [
             "1PBMnyiJKL3WyRZBa8L3Xsrqq54kR",
           ],
@@ -3040,7 +3040,7 @@ Object {
             "1YkgQebfxz3gWEdKdqpDT13P5oonSj54",
           ],
           "type": "IN",
-          "value": "5407136",
+          "value": "174796460",
         },
         Object {
           "accountId": "mock:1:ether1:gaobd8:",
@@ -3179,13 +3179,13 @@ Object {
           "value": "1075842",
         },
         Object {
-          "accountId": "mock:1:pirl:gaobd5:",
+          "accountId": "mock:1:peercoin:gaobd5:",
           "blockHash": "EDEC45621AD50F64B9CD0342E01BAA5A6B8EA12F38C9093E76EB4521F5BB212C",
           "blockHeight": 180907,
           "date": 2018-03-13T07:46:54.457Z,
-          "fee": "1952",
+          "fee": "63097",
           "hash": "24F56D70C5352CD2BF928C9D5A0401ABE7D0D5F41FFF285168DACA96D4819171",
-          "id": "mock_op_12_mock:1:pirl:gaobd5:",
+          "id": "mock_op_12_mock:1:peercoin:gaobd5:",
           "recipients": Array [
             "1h8k8RevsAD8arMidEyVScGrapARj",
           ],
@@ -3193,7 +3193,7 @@ Object {
             "1mHzxjCjU1J55k14nbA8Fzg6nxf8LWfVNc7",
           ],
           "type": "IN",
-          "value": "195184",
+          "value": "6309734",
         },
         Object {
           "accountId": "mock:1:peercoin:gaobd4:",
