@@ -6,6 +6,7 @@
   "scripts": {
     "flow-typed": "flow-typed install -s",
     "build": "rm -rf lib src/data/icons/react* && node scripts/buildReactIcons.js && babel --ignore __tests__ -sd lib src && flow-copy-source -i \"__tests__/**\" src lib",
+    "prepare": "yarn build",
     "prepublish": "yarn build && yarn documentation",
     "watch": "node scripts/buildReactIcons.js && babel -wsd lib src && flow-copy-source -wv src lib",
     "documentation": "documentation build src/** --project-name '@ledgerhq/wallet-common' --project-version `node -e \"console.log(require('./package.json').version)\"` --project-homepage https://github.com/LedgerHQ/ledger-wallet-common -g -f html -o documentation-website/public/docs",
