@@ -279,13 +279,22 @@ function createCounterValues<State>({
       pairs.push(pair);
     });
     if (pairs.length === 0) return;
-    const { data }: { data: mixed } = await network({
-      method: "POST",
-      url: getAPIBaseURL() + "/rates/daily",
-      data: {
-        pairs
-      }
-    });
+
+    const includesAe = ({ from, to }) => [from, to].includes("AE");
+
+    const { data }: { data: mixed } = merge(...[
+      await network({
+        method: "POST",
+        url: getAPIBaseURL() + "/rates/daily",
+        data: {
+          pairs: pairs.filter(p => !includesAe(p))
+        }
+      }),
+      ...pairs.filter(includesAe).map(({ from, to }) => ({
+        data: { [to]: { [from]: { FAKE: { latest: 100 } } } }
+      }))
+    ]);
+
     if (data && typeof data === "object") {
       const ev: PollAction = { type: POLL, data };
       dispatch(ev);
@@ -361,6 +370,9 @@ function createCounterValues<State>({
   };
 
   const fetchExchangesForPair = async (from, to): Promise<Exchange[]> => {
+    if ([to.ticker, from.ticker].includes("AE")) {
+      return [{id: "FAKE", name: "Fake", website: "https://example.com"}];
+    }
     const { data } = await network({
       method: "GET",
       url: getAPIBaseURL() + "/exchanges/" + from.ticker + "/" + to.ticker
