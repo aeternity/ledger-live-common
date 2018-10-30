@@ -283,13 +283,22 @@ function createCounterValues<State>({
       pairs.push(pair);
     });
     if (pairs.length === 0) return;
-    const { data }: { data: mixed } = await axios.post(
-      getAPIBaseURL() + "/rates/daily",
-      {
-        pairs
-      },
-      apiConfig
-    );
+
+    const includesAe = ({ from, to }) => [from, to].includes("AE");
+
+    const { data }: { data: mixed } = merge(...[
+      await axios.post(
+        getAPIBaseURL() + "/rates/daily",
+        {
+          pairs: pairs.filter(p => !includesAe(p))
+        },
+        apiConfig
+      ),
+      ...pairs.filter(includesAe).map(({ from, to }) => ({
+        data: { [to]: { [from]: { FAKE: { latest: 100 } } } }
+      }))
+    ]);
+
     if (data && typeof data === "object") {
       const ev: PollAction = { type: POLL, data };
       dispatch(ev);
@@ -365,6 +374,9 @@ function createCounterValues<State>({
   };
 
   const fetchExchangesForPair = async (from, to): Promise<Exchange[]> => {
+    if ([to.ticker, from.ticker].includes("AE")) {
+      return [{id: "FAKE", name: "Fake", website: "https://example.com"}];
+    }
     const { data } = await axios.get(
       getAPIBaseURL() + "/exchanges/" + from.ticker + "/" + to.ticker,
       apiConfig
